@@ -1,11 +1,11 @@
 body{
     font-size:16px;
     color:rgb(255, 255, 255);
-    background-color: #61122f;
+    background-color: #000000;
 }
 
 #header-nav{
-    background-color:#f6b319;
+    background-color:#707070;
     border-radius: 0;
     border: 0;
 }
@@ -53,11 +53,11 @@ body{
   }
 
   #nav-list a {
-    color: #951C49;
+    color: rgb(0, 0, 0);
     text-align: center;
   }
   #nav-list a:hover {
-    background: #E7E7E7;
+    background: rgb(102, 101, 101);
   }
   #nav-list a span {
     font-size: 1.8em;
