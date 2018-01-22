@@ -1,0 +1,129 @@
+body{
+    font-family: cursive;
+ padding: 0px;
+ border: 0px;
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 200%;
+    text-align: center;
+    
+}
+
+.container{
+    width: 100%;
+}
+
+#col1,#col2,#col3{
+    padding-top: 38px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position:relative;
+    background-color: rgb(156, 156, 165);
+    margin: 10px;
+    height: 200px;
+    border: 2px solid black;
+    
+}
+#div1{
+    font-size: 150%;
+    text-align: center;
+    margin-top: -1px;
+    margin-right: -2px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 33.33%;
+    background-color: rgb(253, 142, 220);
+    border: 2px solid black;
+}
+
+#div2{
+    font-size: 150%;
+    text-align: center;
+    margin-top: -2px;
+    margin-right: -2px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 33.33%;
+    background-color: rgb(243, 53, 53);
+    border: 2px solid black;
+}
+
+#div3{
+    font-size: 150%;
+    text-align: center;
+    margin-top: -2px;
+    margin-right: -2px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 33.33%;
+    background-color: rgb(228, 211, 60);
+    border: 2px solid black;
+}
+
+
+@media (min-width:992px ) {
+
+    #col1,#col2,#col3{
+        width: 31%;
+        float: left;
+    }
+
+    
+}
+
+@media (max-width:991px ) and (min-width:768px){
+
+    #col1{
+        width: 46.9%;
+        height: 150px;
+        float: right;
+    }
+
+    #col2{
+        width: 46.9%;
+        height: 150px;
+        float: right;
+    }
+
+    #col3{
+        width: 97%;
+        height: 150px;
+        float: right;
+    }
+    
+}
+
+    @media (max-width:767px ){
+        #col1,#col2,#col2{
+            margin-left: 0px !important;
+        }
+
+        #col1{
+            /* width: 100%; */
+            height: 150px;
+            float: right;
+        }
+    
+        #col2{
+            /* width: 100%; */
+            height: 150px;
+            float: right;
+        }
+    
+        #col3{
+            /* width: 100%; */
+            height: 150px;
+            float: right;
+        }
+        
+        }
+
