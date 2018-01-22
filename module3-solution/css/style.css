@@ -51,9 +51,10 @@ margin-left: 0px;
 .navbar-nav > li > .dropdown-menu { background-color: #FF0000; }
 
 
-#ccc{
+.ccc{
     background-color:rgb(170, 167, 167);
     height: 1000px;
+    margin: 10px;
     font-size: 1.2em;
 }
 
