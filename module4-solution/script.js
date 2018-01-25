@@ -3,27 +3,13 @@
     var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
     for( var i in names){
       var firstLetter = (names[i].toLowerCase().charAt(0));
-      if (firstLetter=='j'){
-            (function(window){
-                var speakWord = "Hello";
-                var helloSpeaker = new Object();
-                helloSpeaker.speak = function(name) {
-                  console.log(speakWord + " " + name);
-                }
-                window.helloSpeaker=helloSpeaker;
-            })(window);
-            helloSpeaker.speak(names[i]);
+      if (firstLetter=='j'){   
+        byeSpeaker.speak(names[i]);
       }else{
-            (function(window){
-                var speakWord = "Good Bye"
-                var byeSpeaker = new Object();
-                byeSpeaker.speak = function (name) {
-                  console.log(speakWord + " " + name);
-                }
-                window.byeSpeaker= byeSpeaker;
-            })(window);
-            byeSpeaker.speak(names[i]); 
+        helloSpeaker.speak(names[i]);
+        
       }
+      console.log("");
     }  
 })();
 
